@@ -17,7 +17,7 @@ The project is designed to work with the Pascal VOC format. The pipeline automat
 * **ImageSets**: Text files defining training and testing splits.
 
 
-https://github.com/amirhsy82/Aircraft-Recognition-Pipeline/blob/main/Sample%20Image/download%20(1).png
+![Data Sample](https://github.com/amirhsy82/Aircraft-Recognition-Pipeline/blob/main/Sample%20Image/download%20(1).png)
 
 
 
