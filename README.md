@@ -10,7 +10,7 @@ The challenge of this dataset lies in the varying aspect ratios of aircraft and 
 
 ---
 
-## 📂 Dataset Structure
+##  Dataset Structure
 The project is designed to work with the Pascal VOC format. The pipeline automatically downloads and organizes data from Kaggle:
 * **JPEGImages**: Raw aircraft photos.
 * **Annotations**: XML files containing bounding box coordinates ($x_{min}, y_{min}, x_{max}, y_{max}$).
@@ -20,7 +20,7 @@ The project is designed to work with the Pascal VOC format. The pipeline automat
 
 ---
 
-## 🛠️ Data Engineering & Preprocessing
+## Data Engineering & Preprocessing
 
 ### 1. Coordinate-Aware Transformation
 Standard resizing distorts the geometric features of aircraft (making them look squashed). Our pipeline implements a **Square Padding** strategy:
@@ -41,7 +41,7 @@ The `preprocessing()` function handles the terminal stage of the data line:
 
 ---
 
-## 🧪 Automated Model Optimization
+##  Automated Model Optimization
 Instead of manual architecture design, we utilize **KerasTuner's Hyperband** algorithm to discover the optimal CNN configuration.
 
 ### Search Space:
@@ -54,7 +54,7 @@ Instead of manual architecture design, we utilize **KerasTuner's Hyperband** alg
 
 ---
 
-## 📊 Evaluation & Results
+## Evaluation & Results
 
 ### Model Architecture
 The final architecture is a specialized CNN designed for $64 \times 64$ RGB inputs, featuring Max-Pooling for spatial reduction and Dropout for generalization.
