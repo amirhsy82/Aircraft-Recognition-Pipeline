@@ -16,7 +16,7 @@ The project is designed to work with the Pascal VOC format. The pipeline automat
 * **Annotations**: XML files containing bounding box coordinates ($x_{min}, y_{min}, x_{max}, y_{max}$).
 * **ImageSets**: Text files defining training and testing splits.
 
-![Uploading download.png…]()
+
 
 
 
