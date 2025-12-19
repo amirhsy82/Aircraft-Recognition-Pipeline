@@ -66,5 +66,5 @@ We evaluate the model using Accuracy and Loss curves to ensure the training proc
 
 ```text
 Final Test Results:
-- Test Loss: 0.XXXX
-- Test Accuracy: XX.XX%
+- Test Loss: 0.7014
+- Test Accuracy: 78.90%
